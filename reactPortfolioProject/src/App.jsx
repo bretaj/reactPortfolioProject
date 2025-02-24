@@ -1,3 +1,4 @@
+// TODO: figure out if pathways are correct
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import AboutMe from '../components/AboutMe.jsx'
