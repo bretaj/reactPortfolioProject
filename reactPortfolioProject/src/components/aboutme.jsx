@@ -4,11 +4,10 @@ function AboutMe() {
         <div>
             <h1>About Me</h1>
             <main>
-                <section style={{ display: 'flex', alignItems: 'center', padding: '20px' }}>
+                <section>
                     <img
                         src="./assets/portrait.jpg"
                         alt="portfolio picture"
-                        style={{ borderRadius: '50%', width: '150px', height: '150px', marginRight: '20px' }}
                     />
                     <div>
                         <p>
