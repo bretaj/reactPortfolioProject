@@ -2,3 +2,8 @@ div {
     background-color: hsla(90, 83%, 32%, 0.74);
     color: hsla(40, 12%, 20%, 0.5);
 }
+
+h1 {
+    color: hsla(90, 16%, 80%, 0.87);
+    font-size: 3rme;
+}
