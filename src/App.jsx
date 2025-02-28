@@ -10,6 +10,7 @@ import Resume from '../components/Resume.jsx'
 import Navigation from ;
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import './styles.css';
 
 function App() {
   return (

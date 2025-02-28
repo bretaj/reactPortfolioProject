@@ -8,14 +8,12 @@ import './styles.css';
 function Project() {
     return (
         <div>
+            <Header />
+            <Footer />
 {/* card components??? */}
         </div>
     );
     
 }
-
-
-
-
 
 export default Project;
