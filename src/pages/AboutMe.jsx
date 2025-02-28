@@ -7,7 +7,7 @@ import './styles.css';
 
 function AboutMe() {
     return (
-        <div className="body">
+        <div className="">
             <Header />
             <main>
                 <h1>About Me</h1>
