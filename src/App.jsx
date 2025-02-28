@@ -1,14 +1,12 @@
-// TODO: figure out if pathways are correct
-// TODO: import React-router-DOM? ... npm install react-router-dom?
 import Header from './components/Header.jsx'
-import Footer from './components/Footer.jsx'
+import Footer from './components/Footer'; 
 import AboutMe from './pages/AboutMe.jsx'
-import Project from './pages/Portfolio.jsx'
+import Project from './pages/Project.jsx'
 import Contact from './pages/Contact.jsx'
 import Resume from './pages/Resume.jsx'
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './styles.css';
+
 
 function App() {
   return (
@@ -25,5 +23,5 @@ function App() {
   );
 }
 
-export default App
+export default App;
 

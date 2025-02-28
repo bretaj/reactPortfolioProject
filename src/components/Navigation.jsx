@@ -1,8 +1,6 @@
-// TODO: proper pathways, and imports?
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles.css'
+
 
 function Navigation() {
   return (
