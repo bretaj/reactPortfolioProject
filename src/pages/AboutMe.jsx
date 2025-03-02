@@ -2,16 +2,15 @@ import React from 'react';
 import Header from '../components/Header.jsx';
 import Footer from '../components/Footer.jsx';
 
-
 function AboutMe() {
     return (
-        <div className="">
+        <div>
             <Header />
             <main>
                 <h1>About Me</h1>
                 <img 
-                    src=""
-                    alt=""
+                    src="./assets/portrait.jpg"
+                    alt="portrait"
                 />
                 <p>
                     textextextext
