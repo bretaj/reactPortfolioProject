@@ -10,7 +10,7 @@ function AboutMe() {
                 <h1>About Me</h1>
                 <img 
                     src={portrait}
-                    alt="portrait"
+                    alt="self-image"
                 />
                 <p>
                     textextextext

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function Footer () {
     return (
-      <div>
+      <footer>
         <nav>
                   <ul>
                       <li>
@@ -15,7 +15,7 @@ function Footer () {
                       </li>
                   </ul>
               </nav>
-      </div>
+        </footer>
     );
   };
   

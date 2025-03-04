@@ -6,7 +6,7 @@ import ContactForm from '../components/ContactForm.jsx';
 
 function Contact() {
     return (
-        <div className="">
+        <div>
             <main>
                 <h1>Contact Me</h1>
                 <ContactForm />

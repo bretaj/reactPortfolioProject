@@ -1,14 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const style = {
-  backgroundColor: 'green',
-  color: 'white',
-}
-
 function Navigation() {
   return (
-        <nav style={style}>
+        <nav>
           <ul>
             <li>
               <Link to="/">About Me</Link>
