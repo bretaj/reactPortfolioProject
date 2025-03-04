@@ -5,20 +5,22 @@ import Project from './pages/Project.jsx'
 import Contact from './pages/Contact.jsx'
 import Resume from './pages/Resume.jsx'
 import React from 'react';
-import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// TODO: import a css file?
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 function App() {
   return (
     <Router>
       <Header />
-      <Switch>
+      <Routes> 
+        {/* routes or switch? */}
         <Route path="/" exact component={AboutMe} />
-        <Route path="/project" component={Project} />
+        <Route path="/portfolio" component={Project} />
         <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
-      </Switch>
+      </Routes>
       <Footer />
     </Router>
   );

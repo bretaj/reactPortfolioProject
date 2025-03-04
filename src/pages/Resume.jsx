@@ -9,8 +9,7 @@ function Resume() {
             <Header />
             <Footer />
         </div>
-    );
-    
+    ); 
 }
 
 export default Resume;
