@@ -11,9 +11,9 @@ div {
 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: hsla(0, 0%, 100%, 0.897);
 }
 
 footer {
@@ -23,19 +23,10 @@ footer {
     text-align: center;
 }
 
-/* img {
-    margin:10px;
-    border-radius:50px;
-} */
-
 h1 {
     display:inline-block;
     font-size: 3rem;
     }
-
-.h1AboutMe{
-    
-}
 
 li {
     display: inline-block;
@@ -44,12 +35,8 @@ li {
     margin-left: 25px;
 }
 
-.footerH1{
-    margin-bottom: 10px;
-}
-
 a {
-    color: #ffffff;
+    color: hsla(0, 0%, 100%, 0.897);
     text-decoration: none;
 }
 
@@ -71,6 +58,7 @@ a.active {
 
 .about-me-container {
     text-align: left;
+    color: hsla(0, 0%, 100%, 0.897);
     margin: 0px; 
 }
 
@@ -84,5 +72,5 @@ a.active {
 
 .about-me-text {
     margin: 20px 0 0 20px;
-    font-size: 1em
+    font-size: 1em;
 }
