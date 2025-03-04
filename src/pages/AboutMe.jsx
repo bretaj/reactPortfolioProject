@@ -5,7 +5,6 @@ import Footer from '../components/Footer.jsx';
 function AboutMe() {
     return (
         <div>
-            <Header />
             <main>
                 <h1>About Me</h1>
                 <img 
@@ -16,7 +15,6 @@ function AboutMe() {
                     textextextext
                 </p>
             </main>
-            <Footer />
         </div>
     );
 };

@@ -5,8 +5,7 @@ import Footer from '../components/Footer.jsx';
 function Project() {
     return (
         <div>
-            <Header />
-            <Footer />
+            <p>text</p>
 {/* card components??? */}
         </div>
     );

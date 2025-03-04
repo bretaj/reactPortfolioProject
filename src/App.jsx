@@ -14,12 +14,11 @@ function App() {
   return (
     <Router>
       <Header />
-      <Routes> 
-        {/* routes or switch? */}
-        <Route path="/" exact component={AboutMe} />
-        <Route path="/portfolio" component={Project} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
+      <Routes>
+        <Route path="/" element={<AboutMe />} />
+        <Route path="/portfolio" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
       <Footer />
     </Router>

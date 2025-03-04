@@ -6,8 +6,7 @@ import Footer from '../components/Footer.jsx';
 function Resume() {
     return (
         <div>
-            <Header />
-            <Footer />
+            <p>text</p>
         </div>
     ); 
 }
