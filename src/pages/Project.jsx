@@ -1,6 +1,8 @@
 import React from 'react';
-// import Header from '../components/Header.jsx'; 
-// import Footer from '../components/Footer.jsx'; 
+import Projects from '../components/Projects.jsx';
+import image1 from '../assets/circuit.png';
+import image2 from '../assets/abstractcircuit.png';
+import image3 from '../assets/codeBunch.png'
 
 const style = {
     marginLeft: '20px',
@@ -9,9 +11,24 @@ const style = {
 
 function Project() {
     return (
-        <div>
+            <>
             <p style ={style}>Portfolio</p>
-        </div>
+            <div className='project-container'>
+            <Projects 
+            image={image1}
+            name="project 1"
+            description="textextext"
+            />
+            <Projects
+            image={image2}
+            name="project 2"
+            description="textextext" />
+            <Projects
+            image={image3}
+            name="project 3"
+            description="textextext" />
+            </div>
+            </>
     );
     
 }
