@@ -3,10 +3,16 @@
 
 div {
     background-color:rgba(108, 149, 185, 0.884);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 header {
+    background-color: aqua;
     color: black;
-    font-size: 4rem;
+    font-size: 2rem;
+}
+
+img {
+    width: 100px;
+    height: 125px
 }

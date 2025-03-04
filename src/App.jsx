@@ -5,7 +5,7 @@ import Project from './pages/Project.jsx'
 import Contact from './pages/Contact.jsx'
 import Resume from './pages/Resume.jsx'
 import React from 'react';
-// TODO: import a css file?
+import './App.css'
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 

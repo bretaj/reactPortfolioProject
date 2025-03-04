@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from '../components/Header.jsx';
-import Footer from '../components/Footer.jsx';
+import portrait from '../assets/portrait.jpg';
+// import Header from '../components/Header.jsx';
+// import Footer from '../components/Footer.jsx';
 
 function AboutMe() {
     return (
@@ -8,7 +9,7 @@ function AboutMe() {
             <main>
                 <h1>About Me</h1>
                 <img 
-                    src="./assets/portrait.jpg"
+                    src={portrait}
                     alt="portrait"
                 />
                 <p>
