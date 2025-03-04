@@ -1,17 +1,17 @@
-// TODO: proper pathways, and imports?
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+const style = {
+  backgroundColor: 'green',
+  color: 'white',
+}
+
 function Navigation() {
   return (
-        <nav>
+        <nav style={style}>
           <ul>
             <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
+              <Link to="/">About Me</Link>
             </li>
             <li>
               <Link to="/portfolio">Portfolio</Link>
@@ -27,4 +27,4 @@ function Navigation() {
     );
   }
 
-export default Navigation
+export default Navigation;

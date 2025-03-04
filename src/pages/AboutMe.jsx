@@ -1,25 +1,20 @@
-// TODO: proper pathways, and imports?
-
 import React from 'react';
-import Header from './Header'; 
-import Footer from './Footer'; 
+import Header from '../components/Header.jsx';
+import Footer from '../components/Footer.jsx';
 
 function AboutMe() {
     return (
-        <div className="">
-            <Header />
+        <div>
             <main>
                 <h1>About Me</h1>
                 <img 
-                    src=""
-                    alt=""
-                    className=""
+                    src="./assets/portrait.jpg"
+                    alt="portrait"
                 />
                 <p>
                     textextextext
                 </p>
             </main>
-            <Footer />
         </div>
     );
 };
