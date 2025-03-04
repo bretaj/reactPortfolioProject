@@ -4,13 +4,13 @@ function Footer () {
       <footer>
         <nav>
                   <ul>
-                      <li>
+                      <li className='footerH1'>
                           <Link to="/">GitHub</Link>
                       </li>
-                      <li>
+                      <li className='footerH1'>
                           <Link to="/">LinkedIn</Link>
                       </li>
-                      <li>
+                      <li className='footerH1'>
                           <Link to="/">BlueSky</Link>
                       </li>
                   </ul>

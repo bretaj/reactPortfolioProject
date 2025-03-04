@@ -17,52 +17,35 @@ header {
 }
 
 footer {
-    background-color: aqua;
+    background-color: #2a607c;
     color: black;
     font-size: 2rem;
+    text-align: center;
 }
 
-img {
-    width: 100px;
-    height: 125px
-}
-
-/* main, p, h1 {
-    padding: 0px;
-    margin: 0px
-} */
-
-/* nav {
-    text-align: right; 
-    margin-right: 20px;
-    padding-top: 15px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0; 
-}
-
-nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black
+/* img {
+    margin:10px;
+    border-radius:50px;
 } */
 
 h1 {
-    display: inline-block;
+    display:inline-block;
     font-size: 3rem;
     }
 
-    li {
+.h1AboutMe{
+    
+}
+
+li {
     display: inline-block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     margin-left: 25px;
+}
+
+.footerH1{
+    margin-bottom: 10px;
 }
 
 a {
@@ -70,9 +53,36 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    background-size: 100% 100%;
+    color: lightblue
+}
+
+a.active {
+    color: lightblue
+}
+
 .text-right {
     text-align: right;
     margin-right: 20px;
     padding-top: 15px;
     float: right;
+}
+
+.about-me-container {
+    text-align: left;
+    margin: 0px; 
+}
+
+.avatar {
+    display: block;
+    margin: 10px 0 0 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px
+}
+
+.about-me-text {
+    margin: 20px 0 0 20px;
+    font-size: 1em
 }
