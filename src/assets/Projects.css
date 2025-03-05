@@ -45,7 +45,7 @@
     transition: 200ms ease-in-out;
  }
 
-.img-wrapper:hover > img.cardImage {
+.img-wrapper:hover > img.blur {
     filter: blur(3px);
 }
 

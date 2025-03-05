@@ -3,6 +3,9 @@ import Projects from '../components/Projects.jsx';
 import image1 from '../assets/circuit.png';
 import image2 from '../assets/abstractcircuit.png';
 import image3 from '../assets/codeBunch.png'
+import image4 from '../assets/brackets.png'
+import image5 from '../assets/reactScript.png'
+import image6 from '../assets/vsCode.png'
 // TODO: import more images, and put to respective cards
 const style = {
     margin: '20px',
@@ -27,15 +30,15 @@ function Project() {
             link="https://github.com/bretaj"
             description="textextext" />
             <Projects
-            image={image3}
+            image={image4}
             link="https://github.com/bretaj"
             description="textextext" />
             <Projects
-            image={image3}
+            image={image5}
             link="https://github.com/bretaj"
             description="textextext" />
             <Projects
-            image={image3}
+            image={image6}
             link="https://github.com/bretaj"
             description="textextext" />
             {/* TODO: change linkes to actual projects from GitHub */}

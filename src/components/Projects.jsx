@@ -6,7 +6,7 @@ function Card(props) {
     return (
         <div className='card-grid'>
             <div className='img-wrapper'>
-                <img alt="picture of project" className='cardImage' src={props.image} />
+                <img alt="picture of project" className='blur' src={props.image} />
                 <div className='card-text fade'>
                     <span>{props.description}</span>
                     <a href={props.link} className='card-link'><img alt='git logo' className='card-avatar' src={gitlogo} /></a>
