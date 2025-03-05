@@ -1,7 +1,8 @@
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
- }
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px 0;
+}
  
  .img-wrapper {
      position: relative;
@@ -23,14 +24,30 @@
      padding: 1rem;
      background: rgba(255, 255, 255, .4);
      display: flex;
+     flex-direction: column;
      justify-content: center;
      align-items: center;
  }
+
+ .card-link {
+    margin-top: 10px; /* Space between text and link */
+    text-decoration: none; /* Remove underline */
+    color: blue; /* Change link color */
+    font-size: 1rem; /* Adjust font size as needed */
+    transition: color 200ms ease-in-out; /* Smooth color transition */
+ }
+.card-link:hover {
+    color: darkblue
+}
 
  .img-wrapper > img,
  .img-wrapper > .card-text {
     transition: 200ms ease-in-out;
  }
+
+.img-wrapper:hover > img.cardImage {
+    filter: blur(3px);
+}
 
  .img-wrapper > .card-text.fade {
     opacity: 0;
@@ -40,3 +57,10 @@
     opacity: 1;
 }
  
+.card-avatar{
+        border-radius: 50%;
+}
+
+.card-avatar:hover {
+    transform: scale(1.1);
+}
