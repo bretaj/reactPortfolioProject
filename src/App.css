@@ -59,19 +59,29 @@ a.active {
     text-align: left;
     color: hsla(0, 0%, 100%, 0.897);
     margin: 0px; 
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.avatar {
-    display: block;
-    margin: 10px 0 0 20px;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px
+.about-me-text-top {
+    margin: 20px 0 0 20px;
+    font-size: 2rem;
+    font-family: arial;
 }
 
 .about-me-text {
     margin: 20px 0 0 20px;
-    font-size: 1em;
+    font-size: 2rem;
+    font-family: arial;
+}
+
+
+.avatar {
+    margin: 10px 0 0 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px
 }
 
 .project-container {

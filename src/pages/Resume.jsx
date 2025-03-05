@@ -6,7 +6,7 @@ import React from 'react';
 function Resume() {
     return (
         <div>
-            <p>text</p>
+            <p>click here to download a .PDF of my resume</p>
         </div>
     ); 
 }

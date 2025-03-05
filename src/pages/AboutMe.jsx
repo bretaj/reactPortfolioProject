@@ -1,20 +1,28 @@
 import React from 'react';
 import avatar from '../assets/avatar.png';
-// import Header from '../components/Header.jsx';
-// import Footer from '../components/Footer.jsx';
+
+const style = {
+    fontSize: '1.25rem',
+    maxWidth: '500px',
+    margin: '20px',
+}
 
 function AboutMe() {
     return (
         <div className='about-me-container'>
-            <p className ='about-me-text'>About Me</p>
+            <p className='about-me-text-top'>About Me</p>
             <img
                 src={avatar}
                 alt="self-image"
                 class="avatar"
             />
-            <p className='about-me-text'>
-                textextextext
-            </p>
+            <div className='about-me-text'>
+                <p style={style}>Hey there, stranger. Thanks for coming by to take a look
+                    at my portfolio. Things may look pretty dull, and basic now, but I am just
+                    starting out on this crazy journey of learning how to be a web developer.
+                    So if you come back again, chances are, things will look a lot nicer.
+                </p>
+            </div>
         </div>
     );
 };
