@@ -7,6 +7,8 @@ function ContactForm() {
         email: '',
         message: ''
     });
+    
+    const [error, setError] = useState('');
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -14,11 +16,29 @@ function ContactForm() {
             ...prevData,
             [name]: value
         }));
+        // Clear error message when user starts typing
+        if (error) {
+            setError('');
+        }
+    };
+
+    const validateEmail = (email) => {
+        // Simple email regex for validation
+        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return regex.test(email);
     };
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        // Validate email
+        if (!validateEmail(formData.email)) {
+            setError('Please enter a valid email address.');
+            return;
+        }
+        // If validation passes, log the form data
         console.log('Form submitted:', formData);
+        // Reset the form after submission
+        setFormData({ name: '', email: '', message: '' });
     };
 
     return (
@@ -59,6 +79,7 @@ function ContactForm() {
                 />
             </div>
             <button className="form-button" type="submit">Send Message</button>
+            {error && <p className="error-message">{error}</p>} {/* Display error message */}
         </form>
     );
 }
