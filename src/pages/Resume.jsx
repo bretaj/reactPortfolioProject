@@ -1,12 +1,37 @@
 import React from 'react';
-// import Header from '../components/Header.jsx'; 
-// import Footer from '../components/Footer.jsx';
-
 
 function Resume() {
+    const style = {
+        fontSize: '1.25rem',
+        margin: '20px',
+        fontFamily: 'arial',
+        textAlign: 'center',
+        color: 'white',
+    }
+    const para = {
+        marginTop: '10px',
+    }
+
     return (
-        <div>
-            <p>text</p>
+        <div style ={style}>
+            <p>
+                Click <a href="#">here</a> to download a .PDF of my resume
+            </p>
+            <p style ={para}>my proficiencies include:</p>
+            <ul>
+                <li>
+                    React
+                </li>
+                <li>
+                    React
+                </li>
+                <li>
+                    React
+                </li>
+                <li>
+                    React
+                </li>
+            </ul>
         </div>
     ); 
 }

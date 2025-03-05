@@ -1,22 +1,23 @@
 import { Link } from "react-router-dom";
-function Footer () {
+
+function Footer() {
     return (
-      <footer>
-        <nav>
-                  <ul>
-                      <li>
-                          <Link to="/">GitHub</Link>
-                      </li>
-                      <li>
-                          <Link to="/">LinkedIn</Link>
-                      </li>
-                      <li>
-                          <Link to="/">BlueSky</Link>
-                      </li>
-                  </ul>
-              </nav>
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <Link to="https://github.com/bretaj">GitHub</Link>
+                    </li>
+                    <li>
+                        <Link to="https://linkedin.com">LinkedIn</Link>
+                    </li>
+                    <li>
+                        <Link to="https://bsky.social">BlueSky</Link>
+                    </li>
+                </ul>
+            </nav>
         </footer>
     );
-  };
-  
-  export default Footer;
+};
+
+export default Footer;
