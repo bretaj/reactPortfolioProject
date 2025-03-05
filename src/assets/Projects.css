@@ -29,16 +29,16 @@
      align-items: center;
  }
 
- .card-link {
-    margin-top: 10px; /* Space between text and link */
-    text-decoration: none; /* Remove underline */
-    color: blue; /* Change link color */
-    font-size: 1rem; /* Adjust font size as needed */
-    transition: color 200ms ease-in-out; /* Smooth color transition */
+ /* .card-link {
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+    font-size: 1rem;
+    transition: color 200ms ease-in-out;
  }
 .card-link:hover {
     color: darkblue
-}
+} */
 
  .img-wrapper > img,
  .img-wrapper > .card-text {
