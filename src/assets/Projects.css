@@ -1,0 +1,42 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ }
+ 
+ .img-wrapper {
+     position: relative;
+     overflow: hidden;
+ }
+ 
+ .img-wrapper > img {
+     display: block;
+     width: 100%;
+     aspect-ratio: 1 / 1;
+     object-fit: cover;
+     object-position: center;
+ }
+ 
+ .img-wrapper > .card-text {
+     position: absolute;
+     inset: 0;
+     font-size: 2rem;
+     padding: 1rem;
+     background: rgba(255, 255, 255, .4);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .img-wrapper > img,
+ .img-wrapper > .card-text {
+    transition: 200ms ease-in-out;
+ }
+
+ .img-wrapper > .card-text.fade {
+    opacity: 0;
+ }
+
+.img-wrapper:hover > .card-text.fade {
+    opacity: 1;
+}
+ 

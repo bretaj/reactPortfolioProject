@@ -16,16 +16,27 @@ function Project() {
             <div className='project-container'>
             <Projects 
             image={image1}
-            name="project 1"
-            description="textextext"
-            />
+
+            description="textextext"/>
             <Projects
             image={image2}
-            name="project 2"
+
             description="textextext" />
             <Projects
             image={image3}
-            name="project 3"
+
+            description="textextext" />
+            <Projects
+            image={image3}
+
+            description="textextext" />
+            <Projects
+            image={image3}
+
+            description="textextext" />
+            <Projects
+            image={image3}
+
             description="textextext" />
             </div>
             </>

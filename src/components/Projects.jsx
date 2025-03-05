@@ -1,18 +1,16 @@
 import '../pages/Project'
+import '../assets/Projects.css'
 
-function Card (props) {
+function Card(props) {
     return (
-        <div className ='card'>
-            <img alt ="picture of project" className='card-image' src={props.image}>
-
-            </img>
-            <h2 className='card-title'>
-                {props.name}
-            </h2>
-            <p className='card-text'>
-                {props.description}
-            </p>
-        </div>
+        <div className='card-grid'>
+            <div className='img-wrapper'>
+                <img alt="picture of project" src={props.image} />
+                <div className='card-text fade'>
+                    {props.description}
+                </div>
+            </div>
+        </div >
     )
 }
 
