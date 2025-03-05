@@ -17,33 +17,32 @@ const style = {
 function Project() {
     return (
         <>
-            <p style={style}>Portfolio</p>
+            <p style={style}>Check out some of the fun things I'm either working on, or have completed!</p>
             <div className='project-container'>
                 <Projects
                     image={image1}
-                    link="https://github.com/bretaj"
-                    description="textextext" />
+                    link="https://github.com/bretaj/SQLemployeeTracker"
+                    description="An employee management tracker using SQL & PostgreSQL" />
                 <Projects
                     image={image2}
-                    link="https://github.com/bretaj"
-                    description="textextext" />
+                    link="https://github.com/bretaj/bretsvehiclegenerator"
+                    description="A fun vehicle generator using node.js" />
                 <Projects
                     image={image3}
-                    link="https://github.com/bretaj"
-                    description="textextext" />
+                    link="https://github.com/bretaj/bootcampProject1"
+                    description="An inventory management application using JavaScript" />
                 <Projects
                     image={image4}
-                    link="https://github.com/bretaj"
-                    description="textextext" />
+                    link="https://github.com/bretaj/bretNodeJSreadMeCreator"
+                    description="A readme.md file generator using node.js" />
                 <Projects
                     image={image5}
-                    link="https://github.com/bretaj"
-                    description="textextext" />
+                    link="https://github.com/bretaj/chiptuneapp"
+                    description="A fun musical trivia game that is still in development" />
                 <Projects
                     image={image6}
-                    link="https://github.com/bretaj"
-                    description="textextext" />
-                {/* TODO: change linkes to actual projects from GitHub */}
+                    link="https://github.com/bretaj/prework-study-guide"
+                    description="A hodgepodge of coding" />
             </div>
         </>
     );

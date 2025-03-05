@@ -15,21 +15,21 @@ function Resume() {
     return (
         <div style ={style}>
             <p>
-                Click <a href="#">here</a> to download a .PDF of my resume
+                Click <a href="#"><span className='res-Span'>here</span></a> to download a .PDF of my resume
             </p>
             <p style ={para}>my proficiencies include:</p>
-            <ul>
-                <li>
+            <ul className='ul-grid'>
+                <li className='li-space'>
                     React
                 </li>
-                <li>
-                    React
+                <li className='li-space'>
+                    SQL
                 </li>
-                <li>
-                    React
+                <li className='li-space'>
+                    JavaScript
                 </li>
-                <li>
-                    React
+                <li className='li-space'>
+                    APIs
                 </li>
             </ul>
         </div>
