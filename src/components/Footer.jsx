@@ -6,13 +6,13 @@ function Footer() {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/">GitHub</Link>
+                        <Link to="https://github.com/bretaj">GitHub</Link>
                     </li>
                     <li>
-                        <Link to="/">LinkedIn</Link>
+                        <Link to="https://linkedin.com">LinkedIn</Link>
                     </li>
                     <li>
-                        <Link to="/">BlueSky</Link>
+                        <Link to="https://bsky.social">BlueSky</Link>
                     </li>
                 </ul>
             </nav>
