@@ -6,7 +6,7 @@ import image3 from '../assets/codeBunch.png'
 import image4 from '../assets/brackets.png'
 import image5 from '../assets/reactScript.png'
 import image6 from '../assets/vsCode.png'
-// TODO: import more images, and put to respective cards
+
 const style = {
     margin: '25px',
     fontSize: '1rem',
