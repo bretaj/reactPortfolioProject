@@ -6,6 +6,7 @@ function Header() {
     <header>
         <h1>Bret Jensen</h1>
         <Navigation />
+        {/* importing navigation component into header */}
     </header>
 );
 }
