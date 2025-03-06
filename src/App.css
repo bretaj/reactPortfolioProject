@@ -38,7 +38,7 @@ a {
     color: hsla(0, 0%, 100%, 0.897);
     text-decoration: none;
 }
-
+/* CSS to get the hover effect on the navbar. move your pointer over the links to see the color change */
 a:hover {
     background-size: 100% 100%;
     color: lightblue
@@ -47,7 +47,7 @@ a:hover {
 a.active {
     color: lightblue;
 }
-
+/* CSS for navbar styling to get links to stay on the right side of the page */
 .text-right {
     text-align: right;
     margin-right: 20px;
@@ -75,7 +75,7 @@ a.active {
     font-size: 2rem;
     font-family: arial;
 }
-
+/* avatar styling on about me page */
 .avatar {
     margin: 10px 0 0 20px;
     border-radius: 50%;
@@ -90,21 +90,21 @@ a.active {
     flex-wrap: wrap;
     gap: 20px;
 }
-
+/* ul container to get proficiencies to fall on top of eachother in resume section */
 .ul-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin-top:20px;
 }
-
+/* different coloring for "here" in the resume section */
 .res-Span {
     color: rgba(70, 70, 228, 0.562);
 }
-
+/* spacing between lines in the resume section */
 .li-space{
     margin-bottom: 10px;
 }
-
+/* attempting some media quieries for responsiveness, but they need some fine tuning */
 @media (max-width: 400px) {
     nav {
       display: grid; 

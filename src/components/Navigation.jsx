@@ -9,6 +9,7 @@ function Navigation() {
           <ul>
             <li>
               <Link to="/" className ={location.pathname ==='/' ? 'active' : ''}>About Me</Link>
+              {/* was able to find out how to get 'active' link coloring in navbar so when a user is on respective page, the link in the navbar is slightly darker color.  */}
             </li>
             <li>
               <Link to="/portfolio" className ={location.pathname ==='/portfolio' ? 'active' : ''}>Portfolio</Link>

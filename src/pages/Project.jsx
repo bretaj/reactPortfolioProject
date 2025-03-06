@@ -1,3 +1,4 @@
+// whole bunch of imports for portfolio cards
 import React from 'react';
 import Projects from '../components/Projects.jsx';
 import image1 from '../assets/circuit.png';
@@ -13,12 +14,14 @@ const style = {
     fontFamily: 'Arial',
     color: 'white',
 };
+// trying some inline styling to make appearance very specific
 
 function Project() {
     return (
         <>
             <p style={style}>Check out some of the fun things I'm either working on, or have completed!</p>
             <div className='project-container'>
+                {/* below are the prop keys that will be transferred over to the design of the portfolio card design */}
                 <Projects
                     image={image1}
                     link="https://github.com/bretaj/SQLemployeeTracker"
@@ -28,8 +31,11 @@ function Project() {
                     link="https://github.com/bretaj/bretsvehiclegenerator"
                     description="A fun vehicle generator using node.js" />
                 <Projects
-                    image={image3}
+                    image={image3} 
+                    // importing different thumbnail photos for each portfolio card
                     link="https://github.com/bretaj/bootcampProject1"
+                    link2="https://bretaj.github.io/bootcampProject1/index.html"
+                    // including links to some deployed websites
                     description="An inventory management application using JavaScript" />
                 <Projects
                     image={image4}

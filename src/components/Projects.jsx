@@ -3,6 +3,7 @@ import '../assets/Projects.css'
 import gitlogo from '../assets/gitlogo.png'
 
 function Card(props) {
+    // using props in the design of the portfolio cards to make them reusable
     return (
         <div className='card-grid'>
             <div className='img-wrapper'>

@@ -1,4 +1,5 @@
 .card-grid {
+    /* CSS to get the cards in nice uniform rows of 2 */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 20px 0;
@@ -33,7 +34,7 @@
  .img-wrapper > .card-text {
     transition: 200ms ease-in-out;
  }
-
+/* CSS for the cool blur effect when you hover over the cards on the portfolio page */
 .img-wrapper:hover > img.blur {
     filter: blur(3px);
 }
@@ -50,7 +51,7 @@
     border-radius: 50%;
     margin-top: 10px;
 }
-
+/* css to get the git logo to scale up in size a bit when hovered over on the portfolio page */
 .card-avatar:hover {
     transform: scale(1.1);
 }
