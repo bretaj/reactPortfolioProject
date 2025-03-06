@@ -4,6 +4,7 @@
 
 this project utilizes React to create a portfolio to showcase skills learned through previous projects and challenges
 [deployed website](https://bretsreactportfolio.netlify.app/)
+![screenshot of website](Screenshot.png)
 
 ## Table of Contents
 - [Installation](#installation)
